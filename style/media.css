@@ -1,0 +1,73 @@
+@media(max-width: 1295px) {
+    .container {
+        max-width: 1140px;
+        width: 100%;
+    }
+    .intro_box {
+        grid-template-columns: 438px 678px;
+    }
+    .product {
+        width: 440px;
+    }
+    .title {
+        margin-top: 45px;
+    }
+    .discount {
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .news_time {
+        margin-bottom: 35px;
+    }
+    .footer_box {
+        padding-top: 70px;
+    }
+    .news_box {
+        justify-content: center;
+    }
+    .news_left {
+        width: 500px;
+    }
+    .news_right {
+        width: 500px;
+    }
+    .news_card {
+        margin: 100px 0 0 35px;
+    }
+}
+@media(max-width: 1140px) {
+    .nav_box {
+
+    }
+    .discount {
+        width: 80px;
+        font-size: 18px;
+    }
+    .intro_box {
+        gap: 18px;
+        margin-top: 25px;
+        align-items: center;
+        display: flex;
+    }
+    .product {
+        max-width: 400px;
+    }
+    .intro_product {
+        max-width: 146px;
+    }
+    .product_name {
+        text-align: center;
+    }
+    .product_info {
+        text-align: center;
+    }
+    
+}
+@media(max-width: 1090px) {
+    .nav_list {
+        display: none;
+    }
+}
